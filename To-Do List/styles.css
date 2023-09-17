@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: start;
+    background: linear-gradient(90deg,#e52e71,#ff9900);
+}
+
+.Container {
+  background-color: rgb(227, 213, 253); 
+  width: 240px;
+  height: 380px;
+  border-radius: 8px;
+  margin: 20px;
+}
+.todo-input {
+  padding: 8px;
+  width: 100%; /* Set the width of the textarea */
+  height: 100%; /* Set the initial height of the textarea */
+  resize: none; /* Disable textarea resizing */
+  overflow-y: auto; /* Add vertical scrollbar when content exceeds the height */
+}
+
+.btnContainer {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+
+}
+.addContainerBtn {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
