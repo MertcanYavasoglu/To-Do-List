@@ -20,10 +20,10 @@ body {
 }
 .todo-input {
   padding: 8px;
-  width: 100%; /* Set the width of the textarea */
-  height: 100%; /* Set the initial height of the textarea */
-  resize: none; /* Disable textarea resizing */
-  overflow-y: auto; /* Add vertical scrollbar when content exceeds the height */
+  width: 100%; 
+  height: 100%; 
+  resize: none;
+  overflow-y: auto;
 }
 
 .btnContainer {
@@ -41,4 +41,5 @@ body {
   font-size: 30px;
   border-radius: 8px;
   background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
